@@ -16,4 +16,3 @@
 # print(battery[2] + battery[5:7])
 new ="compound"
 print(new[3:5]+new[-2]+new[-1])
-print("Hello")
