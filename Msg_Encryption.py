@@ -12,3 +12,15 @@ def encoder():
 print() 
 #call main function to run
 encoder()
+def decoder():
+    print("\nConverts unicode to text:")
+    inString = input("Enter the unicode encoded message: ")
+    #loop through each substring and build unicode message
+    DecodedMessage =""
+    for numStr in inString.split():
+        #convert the (sub)string to a number
+        codeNum= int(numStr)
+        #append character to messgae
+        DecodedMessage += chr(codeNum)
+    print("The decpded message is:", DecodedMessage)
+decoder()
