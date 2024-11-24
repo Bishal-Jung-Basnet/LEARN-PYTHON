@@ -10,5 +10,5 @@ def encoder():
     for ch in message:
         print(ord(ch), end=" ")
 print() 
-#call main function
+#call main function to run
 encoder()
