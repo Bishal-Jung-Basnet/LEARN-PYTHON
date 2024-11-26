@@ -9,4 +9,10 @@ def string_methods():
     #centered example
     centered = s.center(20)
     print(f"center(): '{centered}'")
+    #count(sub) example
+    count_occurrances = s.count('o')
+    print(f"Count(o): {count_occurrances}")
+    #find(sub) example
+    find_position = s.find('o')
+    print(f"find(o): {find_position}")
 string_methods()
