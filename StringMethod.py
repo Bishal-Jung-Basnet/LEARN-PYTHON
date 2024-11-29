@@ -25,4 +25,13 @@ def string_methods():
     #lower() example
     lower_case = s.lower()
     print(f"lower(): {lower_case}")
+    #lstrip() example
+    stripped_left = s.lstrip()
+    print(f"lstrip(): {stripped_left}")
+    #replace(oldsub, newsub)
+    replaced = s.replace('hello', 'hi')
+    print(f"replace('hello', 'hi'): {replaced}")
+    #rfind(sub) example
+    right_find_position = s.rfind('o')
+    print(f"rfind('o): {right_find_position}")
 string_methods()
