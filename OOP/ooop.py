@@ -244,3 +244,12 @@ for student in SubjectList:
     if subject.get_code()[3] == '3':
         year_3_count+=1
 print("Number of year 3 subject:", year_3_count)
+#calculate average 
+average_credit = total_credit / num_subjects
+# display average
+print("Average credit of all subjects:", average_credit)
+#open file for writing
+with open('newSubject.txt','w') as file:
+    # Interate t
+    for subject in SubjectList:
+        file.write(f"(subject.get_name())")
