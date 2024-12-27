@@ -6,3 +6,9 @@ print('Vowel Letters:', vowelLetters)
 
 mixedSet={'Hello', 101, -199,'Bye'}
 print("Set of mixed data types:", mixedSet)
+#creating empty set
+emptySet = set()
+#creating empty dictionary
+emptyDicationary={}
+print("Data type of empty set",type(emptySet))
+print("Data type of empty dictionary",type(emptyDicationary))
