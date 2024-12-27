@@ -12,3 +12,6 @@ emptySet = set()
 emptyDicationary={}
 print("Data type of empty set",type(emptySet))
 print("Data type of empty dictionary",type(emptyDicationary))
+#duplicate item in set is not repeated
+numbers ={1,2,3,4,3,2,5}
+print(numbers)
