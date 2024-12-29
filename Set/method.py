@@ -6,3 +6,8 @@ print('Initial Set:', number)
 number.add(32)
 print('Updated set:', number)
 
+companies = {'Lacoste', 'Ralph Lauran'}
+techCompanies = ['apple', 'google', 'apple']
+#using update()
+companies.update(techCompanies)
+print(companies)
