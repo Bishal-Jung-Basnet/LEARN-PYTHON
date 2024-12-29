@@ -15,3 +15,10 @@ print(companies)
 #remove from set
 removedValue= companies.discard('Lacoste')
 print('Set after remove()', companies)
+
+fruits = {"apple", "Peach", "Mango"}
+#for loop to access each fruits
+for fruit in fruits:
+    print(fruit)
+
+print(len(fruits))
