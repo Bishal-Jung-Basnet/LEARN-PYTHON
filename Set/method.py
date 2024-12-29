@@ -11,3 +11,7 @@ techCompanies = ['apple', 'google', 'apple']
 #using update()
 companies.update(techCompanies)
 print(companies)
+
+#remove from set
+removedValue= companies.discard('Lacoste')
+print('Set after remove()', companies)
