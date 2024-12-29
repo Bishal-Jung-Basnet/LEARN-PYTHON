@@ -38,3 +38,8 @@ print("Untersection using intersection(): ",A.intersection(B))
 print("Difference using - :", A-B)
 #diffeence using difference()
 print("Difference using difference()", A.difference(B))
+
+if A==B:
+    print("Set A and set B are equal")
+else:
+    print("Set A and set B are not equal")
