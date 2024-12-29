@@ -33,3 +33,8 @@ print("Union using union():", A.union(B))
 print("Untersection using &: ",A&B)
 #intersection using intersection()
 print("Untersection using intersection(): ",A.intersection(B))
+
+#difference operation 
+print("Difference using - :", A-B)
+#diffeence using difference()
+print("Difference using difference()", A.difference(B))
